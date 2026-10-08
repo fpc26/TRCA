@@ -24,7 +24,7 @@ The pages below are the definition, the evidence, and the controls. They do not 
 | [Agentic SOC](docs/agentic-soc.md) | The published investigator meters, and what a spent allowance does to new investigations. |
 | [Public evidence](docs/public-evidence.md) | Which 2026 reports are cases, which are not attacks, and which numbers are not used. |
 | [Trade winds](docs/trade-winds.md) | Each public report, dated and aligned to the four classes. |
-| [Timeline](timeline/index.html) | Those events in date order. |
+| [Timeline](https://fpc26.github.io/TRCA/timeline/) | Those events in date order. |
 | [References](docs/references.md) | Outlet, date, and URL for each source. |
 | [Technique stub](docs/proposed-technique.md) | A draft mapping for ATT&CK or ATLAS. Not an assigned ID. |
 
@@ -49,7 +49,7 @@ None of those bodies has accepted TRCA. The notes here are a proposal.
 
 ## Keeping it current
 
-The trade-wind log and the evidence page are the record. The chronology at [timeline/index.html](timeline/index.html) is compiled from those two documents.
+The trade-wind log and the evidence page are the record. The chronology is published at [fpc26.github.io/TRCA/timeline](https://fpc26.github.io/TRCA/timeline/). It is compiled from those two documents.
 
 ## License
 
