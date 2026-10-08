@@ -25,7 +25,7 @@ Write so any cyber defender can use the page: security researchers, security eng
 
 ## Publishing
 
-Publish from the repository root. The chronology is at `/timeline/`. Leave `.nojekyll` in the root so GitHub Pages serves that folder as files. Do not edit `timeline/events.json` by hand. It is compiled from `docs/trade-winds.md` and the timeline block in `docs/public-evidence.md`.
+Do not enable GitHub Pages for this repository. The chronology on GitHub is [timeline/README.md](timeline/README.md). It is compiled with `timeline/events.json`. `timeline/index.html` is the same list for opening on your own machine. Do not edit either generated file by hand.
 
 ## How to propose a framework mapping
 
