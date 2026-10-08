@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TRCA chronology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #12110e;
+      --surface: #1c1a16;
+      --fg: #f4efe6;
+      --muted: #b3a89a;
+      --faint: #8d8476;
+      --line: #3a342c;
+      --copper: #e08a4f;
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--bg); }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 17px/1.5 "Source Sans 3", "Segoe UI", sans-serif;
+    }
+    header, #filters, #list, footer {
+      width: min(760px, calc(100% - 32px));
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header { padding: 36px 0 8px; }
+    .kicker {
+      margin: 0 0 8px;
+      color: var(--copper);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-family: Fraunces, Palatino, Georgia, serif;
+      font-size: 2.4rem;
+      font-weight: 560;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+    .lede { margin: 0; max-width: 38rem; color: var(--muted); }
+    #tally { margin: 10px 0 0; color: var(--faint); font-size: 0.95rem; }
+    #filters {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 14px 0 12px;
+      background: rgba(18, 17, 14, 0.94);
+    }
+    button {
+      min-height: 44px;
+      border: 1px solid var(--line);
+      background: transparent;
+      color: var(--muted);
+      border-radius: 999px;
+      padding: 0 14px;
+      font: inherit;
+      cursor: pointer;
+    }
+    button .n { color: var(--faint); margin-left: 6px; }
+    button[aria-pressed="true"] {
+      background: var(--surface);
+      color: var(--fg);
+      border-color: var(--copper);
+    }
+    button[aria-pressed="true"] .n { color: var(--copper); }
+    .year {
+      margin: 18px 0 8px;
+      color: var(--faint);
+      font-family: Fraunces, Palatino, Georgia, serif;
+      font-size: 1.35rem;
+      font-weight: 560;
+    }
+    ol {
+      list-style: none;
+      margin: 0 0 8px;
+      padding: 0 0 0 18px;
+      border-left: 1px solid var(--line);
+    }
+    li { position: relative; margin: 0 0 14px; }
+    li::before {
+      content: "";
+      position: absolute;
+      left: -23px;
+      top: 22px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--faint);
+    }
+    li.case::before { background: var(--copper); }
+    li.stop::before {
+      background: var(--bg);
+      box-shadow: inset 0 0 0 2px var(--copper);
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px 16px 16px;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .card { transition: border-color 160ms ease; }
+    }
+    .card:hover { border-color: #6a5344; }
+    .when { color: var(--copper); font-size: 0.92rem; font-weight: 600; }
+    .kind {
+      margin: 2px 0 0;
+      color: var(--faint);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin: 2px 0 8px;
+      font-family: Fraunces, Palatino, Georgia, serif;
+      font-size: 1.35rem;
+      font-weight: 560;
+      line-height: 1.25;
+    }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 8px; padding: 0; list-style: none; }
+    .chips li {
+      margin: 0;
+      padding: 2px 8px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .chips li::before { display: none; }
+    .text { margin: 0 0 8px; }
+    a { color: var(--copper); text-underline-offset: 3px; }
+    .empty { color: var(--muted); padding: 8px 0 24px; }
+    footer {
+      padding: 8px 0 40px;
+      color: var(--faint);
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="kicker">Token Resource Consumption Attacks</p>
+    <h1>Public chronology</h1>
+    <p class="lede">Each dated item, aligned to the four classes or to none. The evidence page and the trade-wind log are the record. This page is compiled from them.</p>
+    <p id="tally"></p>
+  </header>
+  <div class="filters" id="filters">
+    <button type="button" aria-pressed="true" data-filter="All">All</button>
+    <button type="button" aria-pressed="false" data-filter="Insider seat">Insider seat</button>
+    <button type="button" aria-pressed="false" data-filter="Stolen key">Stolen key</button>
+    <button type="button" aria-pressed="false" data-filter="Runaway agent">Runaway agent</button>
+    <button type="button" aria-pressed="false" data-filter="Agentic Service Degradation">Agentic Service Degradation</button>
+    <button type="button" aria-pressed="false" data-filter="None">None</button>
+  </div>
+  <div id="list"><p class="empty">Reading the record…</p></div>
+  <p class="empty" id="empty" hidden>Nothing filed under that class yet.</p>
+  <footer>One story, one point. A second outlet is a citation, not a second event.</footer>
+  <script>
+    const KIND = { case: "Case", stop: "Stop, not an attack", wind: "Wind" };
+    let events = [];
+    let active = "All";
+
+    function matches(event) {
+      if (active === "All") return true;
+      if (active === "None") return event.classes.length === 0;
+      return event.classes.includes(active);
+    }
+
+    function countFor(name) {
+      if (name === "All") return events.length;
+      if (name === "None") return events.filter((event) => event.classes.length === 0).length;
+      return events.filter((event) => event.classes.includes(name)).length;
+    }
+
+    function esc(value) {
+      return String(value).replace(/[&<>"']/g, (ch) => {
+        if (ch === "&") return "\u0026amp;";
+        if (ch === "<") return "\u0026lt;";
+        if (ch === ">") return "\u0026gt;";
+        if (ch === "\"") return "\u0026quot;";
+        return "\u0026#39;";
+      });
+    }
+
+    function card(event) {
+      const names = event.classes.length ? event.classes : ["None of the four classes"];
+      const chips = names.map((name) => "<li>" + esc(name) + "</li>").join("");
+      const kindName = event.kind === "case" || event.kind === "stop" || event.kind === "wind" ? event.kind : "wind";
+      const link = event.url && event.url.indexOf("https://") === 0
+        ? '<a href="' + esc(event.url) + '">Source</a>'
+        : "";
+      return '<li class="' + kindName + '"><div class="card"><div class="when">' + esc(event.when) +
+        '</div><p class="kind">' + esc(KIND[kindName]) + "</p><h2>" + esc(event.title) +
+        '</h2><ul class="chips">' + chips + '</ul><p class="text">' + esc(event.text) +
+        "</p>" + link + "</div></li>";
+    }
+
+    function draw() {
+      const list = document.getElementById("list");
+      const shown = events.filter(matches);
+      document.getElementById("empty").hidden = shown.length > 0;
+      if (!shown.length) {
+        list.innerHTML = "";
+        return;
+      }
+      let html = "";
+      let year = "";
+      for (const event of shown) {
+        const next = String(event.sort || "").slice(0, 4);
+        if (next && next !== year) {
+          if (year) html += "</ol>";
+          year = next;
+          html += '<p class="year">' + esc(year) + "</p><ol>";
+        }
+        html += card(event);
+      }
+      if (year) html += "</ol>";
+      list.innerHTML = html;
+    }
+
+    function labelButtons() {
+      const bar = document.getElementById("filters");
+      for (const button of bar.querySelectorAll("button")) {
+        const name = button.dataset.filter;
+        button.innerHTML = esc(name) + ' <span class="n">' + countFor(name) + "</span>";
+      }
+    }
+
+    document.getElementById("filters").addEventListener("click", (event) => {
+      const button = event.target.closest("button");
+      if (!button) return;
+      active = button.dataset.filter;
+      for (const item of event.currentTarget.querySelectorAll("button")) {
+        item.setAttribute("aria-pressed", item === button ? "true" : "false");
+      }
+      draw();
+    });
+
+    fetch("events.json")
+      .then((response) => {
+        if (!response.ok) throw new Error("missing");
+        return response.json();
+      })
+      .then((data) => {
+        events = data.events || [];
+        document.getElementById("tally").textContent = events.length + " items on the record.";
+        labelButtons();
+        draw();
+      })
+      .catch(() => {
+        document.getElementById("list").innerHTML = "";
+        const empty = document.getElementById("empty");
+        empty.hidden = false;
+        empty.textContent = "The chronology has not been compiled yet.";
+      });
+  </script>
+</body>
+</html>
