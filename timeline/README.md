@@ -168,9 +168,9 @@ SANS Internet Storm Center, 11 September 2026, Renato Marinho, The Self-Expandin
 
 ### 20 Sep 2026 — A weekly allowance gone in 44 minutes
 
-Stop, not an attack. Runaway agent.
+Runaway agent.
 
-OpenAI Developer Community. A weekly allowance gone in 44 minutes. Not several services sharing a month. Not an attack.
+OpenAI Developer Community. One security-scan request fanned out and spent a fresh weekly Codex allowance in about 44 minutes. The next worker could not start.
 
 [Source](https://community.openai.com/t/fresh-weekly-codex-work-allowance-exhausted-in-44-minutes-by-security-scan-worker-fan-out/1399277)
 
@@ -224,7 +224,7 @@ Charlie Osborne, ZDNET, 29 September 2026, on the 2026 rise in LLMjacking. ZDNET
 
 ### 30 Sep 2026 — A project tokens-per-minute cap, not a spent month
 
-Stop, not an attack. Runaway agent.
+Runaway agent.
 
 Google AI Developers Forum. A project tokens-per-minute cap, not a spent month. Not an attack.
 
