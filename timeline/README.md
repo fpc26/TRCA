@@ -1,6 +1,6 @@
 # TRCA chronology
 
-Each dated item, aligned to the four classes or to none. The evidence page and the trade-wind log are the record. This page is compiled from them.
+Each dated item records how many of the four classes that article contains. A count of one is normal. All four in one article is not the pattern. Agentic Service Degradation is the highest impact of the four. The evidence page and the trade-wind log are the record. This page is compiled from them.
 
 GitHub renders this file in the repository. `index.html` in this folder is the same list for opening on your own machine. Do not publish this repository with GitHub Pages.
 
@@ -8,7 +8,7 @@ GitHub renders this file in the repository. `index.html` in this folder is the s
 
 ### 27 February 2025 — Stolen Azure keys, resold
 
-Wind. Stolen key.
+Wind. 1 of 4. Stolen key.
 
 Microsoft, 27 February 2025, Steven Masada, Disrupting a global cybercrime network abusing generative AI. The Hacker News and Dark Reading, both 28 February 2025, are the news outlets. A Microsoft feature on 8 May 2025 is the same network.
 
@@ -18,7 +18,7 @@ Microsoft, 27 February 2025, Steven Masada, Disrupting a global cybercrime netwo
 
 ### January and July 2026 — Token Torching
 
-Wind. None of the four classes.
+Wind. 0 of 4. None of the four classes.
 
 Sumo Logic, January 2026, Token Torching. Bitsight, July 2026, same name, second outlet. An older name for the bill. It is not Insider seat, Stolen key, Runaway agent, or Agentic Service Degradation.
 
@@ -26,7 +26,7 @@ Sumo Logic, January 2026, Token Torching. Bitsight, July 2026, same name, second
 
 ### 28 January 2026 — Exposed endpoints, resold
 
-Wind. Stolen key.
+Wind. 1 of 4. Stolen key.
 
 Pillar Security, 28 January 2026, Eilon Cohen and Ariel Fogel, Operation Bizarre Bazaar. SecurityWeek, 29 January 2026, is the news outlet. BleepingComputer, 28 January 2026, ran the same campaign. Honeypots captured 35,000 attack sessions against exposed LLM and MCP endpoints, from December 2025 through January 2026.
 
@@ -34,7 +34,7 @@ Pillar Security, 28 January 2026, Eilon Cohen and Ariel Fogel, Operation Bizarre
 
 ### 3 February 2026 — Bedrock on stolen cloud credentials
 
-Wind. Stolen key.
+Wind. 1 of 4. Stolen key.
 
 Sysdig, 3 February 2026, AI-assisted cloud intrusion. The intrusion on the page is 28 November 2025. The actor reached an AWS account from credentials in a public bucket, then invoked Amazon Bedrock models. Model-invocation logging was off. No named victim. No collected token bill. A monthly figure on the page is a rate if a GPU instance is left running.
 
@@ -42,7 +42,7 @@ Sysdig, 3 February 2026, AI-assisted cloud intrusion. The intrusion on the page 
 
 ### 4 Mar 2026 — $82,314 in 48 hours
 
-Case. Stolen key.
+Case. 1 of 4. Stolen key.
 
 Tom’s Hardware. $82,314 in 48 hours.
 
@@ -50,7 +50,7 @@ Tom’s Hardware. $82,314 in 48 hours.
 
 ### 13 May 2026 — $10,138 in minutes
 
-Case. Stolen key.
+Case. 1 of 4. Stolen key.
 
 The Register. $10,138 in minutes. A spend cap did not stop the live charge.
 
@@ -58,7 +58,7 @@ The Register. $10,138 in minutes. A spend cap did not stop the live charge.
 
 ### 13 May 2026 — About $67,000 in 19 hours
 
-Case. Stolen key.
+Case. 1 of 4. Stolen key.
 
 Cybernews. About $67,000 in 19 hours. Colavo Ground.
 
@@ -66,7 +66,7 @@ Cybernews. About $67,000 in 19 hours. Colavo Ground.
 
 ### 22 May 2026 — Likely-stolen Gemini keys
 
-Wind. Stolen key.
+Wind. 1 of 4. Stolen key.
 
 The Register, 22 May 2026, on a TrendAI report, jailbroken Gemini. The actor bandcampro used 73 likely-stolen Gemini API keys. The page says his only real cost was stolen API keys. No victim AI bill is stated. The published loss is cryptocurrency, not a model invoice.
 
@@ -74,7 +74,7 @@ The Register, 22 May 2026, on a TrendAI report, jailbroken Gemini. The actor ban
 
 ### 31 May 2026 — No company spent half a billion
 
-Wind. None of the four classes.
+Wind. 0 of 4. None of the four classes.
 
 Stax, 31 May 2026, No, a company didn't spend $500M on Claude in a month. Tom's Hardware, 29 May 2026, repeated an Axios consultant claim about an unnamed company. Stax says no company spent $500 million on Claude that month. No invoice. No named company. That number is not a case.
 
@@ -82,7 +82,7 @@ Stax, 31 May 2026, No, a company didn't spend $500M on Claude in a month. Tom's 
 
 ### 20 Jun 2026 — Stolen keys spent as the attacker’s compute
 
-Case. Stolen key.
+Case. 1 of 4. Stolen key.
 
 CSA, LLMjacking Evolved. Stolen keys spent as the attacker’s compute.
 
@@ -90,7 +90,7 @@ CSA, LLMjacking Evolved. Stolen keys spent as the attacker’s compute.
 
 ### 28 June 2026 — A stolen account given away
 
-Wind. Stolen key.
+Wind. 1 of 4. Stolen key.
 
 Vectoral, 28 June 2026, updated 1 October 2026, the relay market. The page says a stolen account with a $150,000 usage limit was being given away. No company is named. That figure is a usage limit, not a collected bill. The author's other dollar lines are not a checked invoice. A claim of $10 million in 48 hours is not on this page.
 
@@ -98,13 +98,13 @@ Vectoral, 28 June 2026, updated 1 October 2026, the relay market. The page says 
 
 ### Summer 2026 — The investigator allowance is already published
 
-Wind. None of the four classes.
+Wind. 0 of 4. None of the four classes.
 
 Meters named: Microsoft Security Copilot, provisioned, Microsoft Security Copilot, E5 and E7 inclusion, Google SecOps Agentic SOC, CrowdStrike Charlotte AI, Elastic, Alibaba Cloud Agentic SOC. Sources are in agentic-soc.md. A published limit is not an attack. No vendor has published an attacker spending one of these pools.
 
 ### 2 July 2026 — The game bill was not real
 
-Wind. None of the four classes.
+Wind. 0 of 4. None of the four classes.
 
 Slash, 2 July 2026, James Cruikshank, The AI Cost Problem is Just Beginning. Business Insider, 23 June 2026, had reported an employee burned $80,000 in tokens. The company says none of it was real, and that he spent less than $200. No hostile motive. Not Insider seat. The $80,000 figure is not a case.
 
@@ -112,7 +112,7 @@ Slash, 2 July 2026, James Cruikshank, The AI Cost Problem is Just Beginning. Bus
 
 ### 3 August 2026 — 200,000 requests in two minutes
 
-Wind. Stolen key.
+Wind. 1 of 4. Stolen key.
 
 The Register, 3 August 2026, on the CrowdStrike 2026 Threat Hunting Report. The Register. CrowdStrike press release, the same day. In one campaign, a token thief sent about 200,000 API requests in two minutes. No victim is named. No dollar bill is stated.
 
@@ -120,7 +120,7 @@ The Register, 3 August 2026, on the CrowdStrike 2026 Threat Hunting Report. The 
 
 ### 26 Aug 2026 — A voluntary Microsoft spreadsheet
 
-Wind. None of the four classes.
+Wind. 0 of 4. None of the four classes.
 
 The Next Web and TechRadar. A voluntary Microsoft spreadsheet. Not sabotage.
 
@@ -128,7 +128,7 @@ The Next Web and TechRadar. A voluntary Microsoft spreadsheet. Not sabotage.
 
 ### 30 Aug 2026 — Stolen Claude login sessions consumed paid usage
 
-Case. Stolen key.
+Case. 1 of 4. Stolen key.
 
 BleepingComputer. Stolen Claude login sessions consumed paid usage. Not an API key. No dollar amount.
 
@@ -136,7 +136,7 @@ BleepingComputer. Stolen Claude login sessions consumed paid usage. Not an API k
 
 ### 31 August 2026 — Free credits, not an invoice
 
-Wind. Stolen key.
+Wind. 1 of 4. Stolen key.
 
 METR, 31 August 2026, Update on Security at METR. The Hacker News, 1 September 2026, and The Register, 1 September 2026, are the same disclosure. In March 2026 a publicly exposed agent was prompted for its model-provider key. The key was then used for about three weeks.
 
@@ -144,7 +144,7 @@ METR, 31 August 2026, Update on Security at METR. The Hacker News, 1 September 2
 
 ### September 2026 — Denial of Wallet
 
-Wind. None of the four classes.
+Wind. 0 of 4. None of the four classes.
 
 Kaspersky, September 2026, Denial of Wallet as a cost flood against AI agents. An older name for a cost flood. Not a victim invoice checked here. Not Agentic Service Degradation.
 
@@ -152,7 +152,7 @@ Kaspersky, September 2026, Denial of Wallet as a cost flood against AI agents. A
 
 ### 3 Sep 2026 — A leaked AWS admin key invoked foundation models
 
-Case. Stolen key.
+Case. 1 of 4. Stolen key.
 
 FortiGuard Labs. A leaked AWS admin key invoked foundation models. Charges landed on the victim account. No dollar amount.
 
@@ -160,15 +160,15 @@ FortiGuard Labs. A leaked AWS admin key invoked foundation models. Charges lande
 
 ### 11 September 2026 — Inference harvested and re-served
 
-Wind. Stolen key.
+Wind. 1 of 4. Stolen key.
 
 SANS Internet Storm Center, 11 September 2026, Renato Marinho, The Self-Expanding Stolen Inference Supply Chain. A coding agent harvested LLM gateway access and re-served the inference. The diary counts 379 upstream endpoints and disabled 341 that failed as fake or dead. No named victim. No dollar amount.
 
 [Source](https://isc.sans.edu/diary/33332)
 
-### 20 Sep 2026 — A weekly allowance gone in 44 minutes
+### 20 Sep 2026 — One security-scan request fanned out and spent a fresh weekly Codex allowance in about 44 minutes
 
-Runaway agent.
+1 of 4. Runaway agent.
 
 OpenAI Developer Community. One security-scan request fanned out and spent a fresh weekly Codex allowance in about 44 minutes. The next worker could not start.
 
@@ -176,7 +176,7 @@ OpenAI Developer Community. One security-scan request fanned out and spent a fre
 
 ### 21 Sep 2026 — One request can still look normal and spawn endless work
 
-Wind. Runaway agent.
+Wind. 1 of 4. Runaway agent.
 
 Dark Reading with Forcepoint. One request can still look normal and spawn endless work.
 
@@ -184,7 +184,7 @@ Dark Reading with Forcepoint. One request can still look normal and spawn endles
 
 ### 21 September 2026 — The target is the agent
 
-Wind. None of the four classes.
+Wind. 0 of 4. None of the four classes.
 
 Security Affairs, 21 September 2026, The Target Is No Longer the Model. It’s the Agent. Poisoned skills, injection, tool hands. No allowance was spent.
 
@@ -192,7 +192,7 @@ Security Affairs, 21 September 2026, The Target Is No Longer the Model. It’s t
 
 ### 25 Sep 2026 — Stolen LLM keys fund the attacker’s own agent
 
-Case. Stolen key.
+Case. 1 of 4. Stolen key.
 
 CARBONATO. Stolen LLM keys fund the attacker’s own agent.
 
@@ -200,7 +200,7 @@ CARBONATO. Stolen LLM keys fund the attacker’s own agent.
 
 ### 28 September 2026 — Stolen AI logins, not an invoice
 
-Wind. None of the four classes.
+Wind. 0 of 4. None of the four classes.
 
 SOCRadar, AI Identity Exposure Report 2026, the report. BleepingComputer, 28 September 2026, is a sponsored second outlet of the same report. The report says keys copied into notes or settings get lifted, then billed to the victim or resold. No invoice is shown. The domain counts are stealer logs, not bills.
 
@@ -208,7 +208,7 @@ SOCRadar, AI Identity Exposure Report 2026, the report. BleepingComputer, 28 Sep
 
 ### 29 September 2026 — An advertised key drain
 
-Wind. Stolen key.
+Wind. 1 of 4. Stolen key.
 
 Cyber Security News, 29 September 2026, on the x47.c botnet advertised by WraithTools. Cyber Security News. Qrator Labs is the lab named in that piece. The Qrator page was not opened. The operator supplies a valid API key and a model name. Bots then send billable requests to the provider. This is an advertisement, not a confirmed victim.
 
@@ -216,7 +216,7 @@ Cyber Security News, 29 September 2026, on the x47.c botnet advertised by Wraith
 
 ### 29 September 2026 — LLMjacking, market color
 
-Wind. None of the four classes.
+Wind. 0 of 4. None of the four classes.
 
 Charlie Osborne, ZDNET, 29 September 2026, on the 2026 rise in LLMjacking. ZDNET. No new victim bill. This is not a second Stolen key case.
 
@@ -224,7 +224,7 @@ Charlie Osborne, ZDNET, 29 September 2026, on the 2026 rise in LLMjacking. ZDNET
 
 ### 30 Sep 2026 — A project tokens-per-minute cap, not a spent month
 
-Runaway agent.
+1 of 4. Runaway agent.
 
 Google AI Developers Forum. A project tokens-per-minute cap, not a spent month. Not an attack.
 
@@ -232,7 +232,7 @@ Google AI Developers Forum. A project tokens-per-minute cap, not a spent month. 
 
 ### 5 October 2026 — AI-speed attacks, AI in the SOC
 
-Wind. None of the four classes.
+Wind. 0 of 4. None of the four classes.
 
 Rob Wright, Need for Speed: AI-Driven Attacks Change Security Strategies, 5 October 2026. Attackers are using AI to exploit faster. A Black Hat USA 2026 poll Wright cites put “AI-driven attacks vs. AI-powered defenses in the SOC” first, at 50%. He cites an Omdia report from summer 2026 on the speed of automated attacks. Omdia is cited, not read here.
 

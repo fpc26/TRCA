@@ -7,6 +7,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "wind",
       "text": "Microsoft, 27 February 2025, Steven Masada, Disrupting a global cybercrime network abusing generative AI. The Hacker News and Dark Reading, both 28 February 2025, are the news outlets. A Microsoft feature on 8 May 2025 is the same network.",
       "url": "https://blogs.microsoft.com/on-the-issues/2025/02/27/disrupting-cybercrime-abusing-gen-ai/",
@@ -17,6 +18,7 @@
       "when": "January and July 2026",
       "title": "Token Torching",
       "classes": [],
+      "found": 0,
       "kind": "wind",
       "text": "Sumo Logic, January 2026, Token Torching. Bitsight, July 2026, same name, second outlet. An older name for the bill. It is not Insider seat, Stolen key, Runaway agent, or Agentic Service Degradation.",
       "url": "https://www.sumologic.com/blog/token-torching-ai-attack",
@@ -29,6 +31,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "wind",
       "text": "Pillar Security, 28 January 2026, Eilon Cohen and Ariel Fogel, Operation Bizarre Bazaar. SecurityWeek, 29 January 2026, is the news outlet. BleepingComputer, 28 January 2026, ran the same campaign. Honeypots captured 35,000 attack sessions against exposed LLM and MCP endpoints, from December 2025 through January 2026.",
       "url": "https://www.pillar.security/blog/operation-bizarre-bazaar-first-attributed-llmjacking-campaign-with-commercial-marketplace-monetization",
@@ -41,6 +44,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "wind",
       "text": "Sysdig, 3 February 2026, AI-assisted cloud intrusion. The intrusion on the page is 28 November 2025. The actor reached an AWS account from credentials in a public bucket, then invoked Amazon Bedrock models. Model-invocation logging was off. No named victim. No collected token bill. A monthly figure on the page is a rate if a GPU instance is left running.",
       "url": "https://www.sysdig.com/blog/ai-assisted-cloud-intrusion-achieves-admin-access-in-8-minutes",
@@ -53,6 +57,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "case",
       "text": "Tom’s Hardware. $82,314 in 48 hours.",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/gemini-api-key-thief-racks-up-usd82-314-in-charges-in-just-two-days-victim-facing-bankruptcy-affected-devs-call-for-basic-guardrails-against-catastrophic-usage-anomalies",
@@ -65,6 +70,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "case",
       "text": "The Register. $10,138 in minutes. A spend cap did not stop the live charge.",
       "url": "https://www.theregister.com/ai-ml/2026/05/13/google-users-fight-for-refunds-as-unauthorized-api-usage-bills-soar/5239160",
@@ -77,6 +83,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "case",
       "text": "Cybernews. About $67,000 in 19 hours. Colavo Ground.",
       "url": "https://cybernews.com/security/developers-go-bankrupt-over-legacy-google-cloud-api-keys/",
@@ -89,6 +96,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "wind",
       "text": "The Register, 22 May 2026, on a TrendAI report, jailbroken Gemini. The actor bandcampro used 73 likely-stolen Gemini API keys. The page says his only real cost was stolen API keys. No victim AI bill is stated. The published loss is cryptocurrency, not a model invoice.",
       "url": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
@@ -99,6 +107,7 @@
       "when": "31 May 2026",
       "title": "No company spent half a billion",
       "classes": [],
+      "found": 0,
       "kind": "wind",
       "text": "Stax, 31 May 2026, No, a company didn't spend $500M on Claude in a month. Tom's Hardware, 29 May 2026, repeated an Axios consultant claim about an unnamed company. Stax says no company spent $500 million on Claude that month. No invoice. No named company. That number is not a case.",
       "url": "https://stax.sh/articles/500-million-claude-bill",
@@ -111,6 +120,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "case",
       "text": "CSA, LLMjacking Evolved. Stolen keys spent as the attacker’s compute.",
       "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-llmjacking-evolved-offensive-agentic-20260/",
@@ -123,6 +133,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "wind",
       "text": "Vectoral, 28 June 2026, updated 1 October 2026, the relay market. The page says a stolen account with a $150,000 usage limit was being given away. No company is named. That figure is a usage limit, not a collected bill. The author's other dollar lines are not a checked invoice. A claim of $10 million in 48 hours is not on this page.",
       "url": "https://vectoral.com/blog/token-relay-market",
@@ -133,6 +144,7 @@
       "when": "Summer 2026",
       "title": "The investigator allowance is already published",
       "classes": [],
+      "found": 0,
       "kind": "wind",
       "text": "Meters named: Microsoft Security Copilot, provisioned, Microsoft Security Copilot, E5 and E7 inclusion, Google SecOps Agentic SOC, CrowdStrike Charlotte AI, Elastic, Alibaba Cloud Agentic SOC. Sources are in agentic-soc.md. A published limit is not an attack. No vendor has published an attacker spending one of these pools.",
       "url": "",
@@ -143,6 +155,7 @@
       "when": "2 July 2026",
       "title": "The game bill was not real",
       "classes": [],
+      "found": 0,
       "kind": "wind",
       "text": "Slash, 2 July 2026, James Cruikshank, The AI Cost Problem is Just Beginning. Business Insider, 23 June 2026, had reported an employee burned $80,000 in tokens. The company says none of it was real, and that he spent less than $200. No hostile motive. Not Insider seat. The $80,000 figure is not a case.",
       "url": "https://www.slash.com/blog/the-ai-cost-problem-is-just-beginning",
@@ -155,6 +168,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "wind",
       "text": "The Register, 3 August 2026, on the CrowdStrike 2026 Threat Hunting Report. The Register. CrowdStrike press release, the same day. In one campaign, a token thief sent about 200,000 API requests in two minutes. No victim is named. No dollar bill is stated.",
       "url": "https://www.theregister.com/cyber-crime/2026/08/03/ai-is-both-the-weapon-and-the-target-in-latest-wave-of-cyberattacks/5281534",
@@ -165,6 +179,7 @@
       "when": "26 Aug 2026",
       "title": "A voluntary Microsoft spreadsheet",
       "classes": [],
+      "found": 0,
       "kind": "wind",
       "text": "The Next Web and TechRadar. A voluntary Microsoft spreadsheet. Not sabotage.",
       "url": "https://thenextweb.com/news/microsoft-employees-ai-spend-spreadsheet-europe-works-councils",
@@ -177,6 +192,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "case",
       "text": "BleepingComputer. Stolen Claude login sessions consumed paid usage. Not an API key. No dollar amount.",
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
@@ -189,6 +205,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "wind",
       "text": "METR, 31 August 2026, Update on Security at METR. The Hacker News, 1 September 2026, and The Register, 1 September 2026, are the same disclosure. In March 2026 a publicly exposed agent was prompted for its model-provider key. The key was then used for about three weeks.",
       "url": "https://metr.org/blog/2026-08-31-security-update/",
@@ -199,6 +216,7 @@
       "when": "September 2026",
       "title": "Denial of Wallet",
       "classes": [],
+      "found": 0,
       "kind": "wind",
       "text": "Kaspersky, September 2026, Denial of Wallet as a cost flood against AI agents. An older name for a cost flood. Not a victim invoice checked here. Not Agentic Service Degradation.",
       "url": "https://www.kaspersky.com/blog/tokenomics-ai-cost-ddos/56455/",
@@ -211,6 +229,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "case",
       "text": "FortiGuard Labs. A leaked AWS admin key invoked foundation models. Charges landed on the victim account. No dollar amount.",
       "url": "https://www.fortinet.com/blog/threat-research/someone-else-is-using-your-ai",
@@ -223,6 +242,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "wind",
       "text": "SANS Internet Storm Center, 11 September 2026, Renato Marinho, The Self-Expanding Stolen Inference Supply Chain. A coding agent harvested LLM gateway access and re-served the inference. The diary counts 379 upstream endpoints and disabled 341 that failed as fake or dead. No named victim. No dollar amount.",
       "url": "https://isc.sans.edu/diary/33332",
@@ -231,10 +251,11 @@
     {
       "sort": "2026-09-20",
       "when": "20 Sep 2026",
-      "title": "A weekly allowance gone in 44 minutes",
+      "title": "One security-scan request fanned out and spent a fresh weekly Codex allowance in about 44 minutes",
       "classes": [
         "Runaway agent"
       ],
+      "found": 1,
       "kind": "stop",
       "text": "OpenAI Developer Community. One security-scan request fanned out and spent a fresh weekly Codex allowance in about 44 minutes. The next worker could not start.",
       "url": "https://community.openai.com/t/fresh-weekly-codex-work-allowance-exhausted-in-44-minutes-by-security-scan-worker-fan-out/1399277",
@@ -247,6 +268,7 @@
       "classes": [
         "Runaway agent"
       ],
+      "found": 1,
       "kind": "wind",
       "text": "Dark Reading with Forcepoint. One request can still look normal and spawn endless work.",
       "url": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
@@ -257,6 +279,7 @@
       "when": "21 September 2026",
       "title": "The target is the agent",
       "classes": [],
+      "found": 0,
       "kind": "wind",
       "text": "Security Affairs, 21 September 2026, The Target Is No Longer the Model. It’s the Agent. Poisoned skills, injection, tool hands. No allowance was spent.",
       "url": "https://securityaffairs.com/199454/ai/the-target-is-no-longer-the-model-its-the-agent.html",
@@ -269,6 +292,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "case",
       "text": "CARBONATO. Stolen LLM keys fund the attacker’s own agent.",
       "url": "https://securityaffairs.com/199716/malware/ai-powered-carbonato-botnet-steals-credentials-to-fund-its-own-llm-gateway.html",
@@ -279,6 +303,7 @@
       "when": "28 September 2026",
       "title": "Stolen AI logins, not an invoice",
       "classes": [],
+      "found": 0,
       "kind": "wind",
       "text": "SOCRadar, AI Identity Exposure Report 2026, the report. BleepingComputer, 28 September 2026, is a sponsored second outlet of the same report. The report says keys copied into notes or settings get lifted, then billed to the victim or resold. No invoice is shown. The domain counts are stealer logs, not bills.",
       "url": "https://socradar.io/resources/report/ai-identity-exposure-report-2026.html",
@@ -291,6 +316,7 @@
       "classes": [
         "Stolen key"
       ],
+      "found": 1,
       "kind": "wind",
       "text": "Cyber Security News, 29 September 2026, on the x47.c botnet advertised by WraithTools. Cyber Security News. Qrator Labs is the lab named in that piece. The Qrator page was not opened. The operator supplies a valid API key and a model name. Bots then send billable requests to the provider. This is an advertisement, not a confirmed victim.",
       "url": "https://cybersecuritynews.com/hackers-built-a-botnet/",
@@ -301,6 +327,7 @@
       "when": "29 September 2026",
       "title": "LLMjacking, market color",
       "classes": [],
+      "found": 0,
       "kind": "wind",
       "text": "Charlie Osborne, ZDNET, 29 September 2026, on the 2026 rise in LLMjacking. ZDNET. No new victim bill. This is not a second Stolen key case.",
       "url": "https://www.zdnet.com/innovation/llmjacking-business-ai-bill-cost-how-to-stop",
@@ -313,6 +340,7 @@
       "classes": [
         "Runaway agent"
       ],
+      "found": 1,
       "kind": "stop",
       "text": "Google AI Developers Forum. A project tokens-per-minute cap, not a spent month. Not an attack.",
       "url": "https://discuss.ai.google.dev/t/the-real-cause-behind-ai-studio-build-quota-exceeded-the-agent-burns-your-projects-tpm-and-google-stays-silent/186027",
@@ -323,6 +351,7 @@
       "when": "5 October 2026",
       "title": "AI-speed attacks, AI in the SOC",
       "classes": [],
+      "found": 0,
       "kind": "wind",
       "text": "Rob Wright, Need for Speed: AI-Driven Attacks Change Security Strategies, 5 October 2026. Attackers are using AI to exploit faster. A Black Hat USA 2026 poll Wright cites put “AI-driven attacks vs. AI-powered defenses in the SOC” first, at 50%. He cites an Omdia report from summer 2026 on the speed of automated attacks. Omdia is cited, not read here.",
       "url": "https://www.darkreading.com/cyber-risk/ai-attacks-security-strategies",

@@ -26,10 +26,11 @@ Three facts sit under that:
 
 ## How to label one incident
 
-Label the incident with the class, then with the existing ID that covers only that slice.
+Label the incident with the classes that article actually contains, then with the existing ID that covers only that slice. The count is how many of the four were found. A count of one is a complete reading. All four in one article is not the pattern. Agentic Service Degradation is the highest impact of the four. The other three still count when it is absent.
 
 | Layer | Question | What to say |
 |---|---|---|
+| Found | How many of the four are in this article? | 0 of 4, 1 of 4, 2 of 4, 3 of 4, or 4 of 4. Name only the classes the page supports. |
 | Class | Which of the four? | Insider seat, Stolen key, Runaway agent, or Agentic Service Degradation |
 | Existing ID | Which published name covers a slice? | OWASP LLM06:2026, ATT&CK T1496.004, ATLAS AML.T0034, or none. Insider seat has no ID. |
 | Effect | What failed? | The bill spiked, or a critical service degraded |

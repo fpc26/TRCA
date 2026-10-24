@@ -2,7 +2,7 @@
 
 This page logs public reporting as it happens. It is not a case table. A case stays in [public-evidence.md](public-evidence.md). This page only points at it.
 
-Each entry is aligned to Insider seat, Stolen key, Runaway agent, Agentic Service Degradation, more than one, or none. Alignment is not a claim that the event is an incident.
+Each entry records which of the four that article contains. The count is 0 of 4 through 4 of 4. A count of one is normal. All four in one article is not the pattern. Agentic Service Degradation is the highest impact of the four. Alignment is not a claim that the event is an incident.
 
 Naming a class here is not a claim that the event is a finished incident. Nothing on this page shows an agentic SOC allowance spent on purpose.
 

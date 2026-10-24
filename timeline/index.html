@@ -155,7 +155,7 @@
   <header>
     <p class="kicker">Token Resource Consumption Attacks</p>
     <h1>Public chronology</h1>
-    <p class="lede">Each dated item, aligned to the four classes or to none. The evidence page and the trade-wind log are the record. This page is compiled from them.</p>
+    <p class="lede">Each dated item records how many of the four classes that article contains. A count of one is normal. All four in one article is not the pattern. Agentic Service Degradation is the highest impact of the four.</p>
     <p id="tally"></p>
   </header>
   <div class="filters" id="filters">
@@ -198,13 +198,17 @@
 
     function card(event) {
       const names = event.classes.length ? event.classes : ["None of the four classes"];
+      const found = typeof event.found === "number" ? event.found : event.classes.length;
       const chips = names.map((name) => "<li>" + esc(name) + "</li>").join("");
       const kindName = event.kind === "case" || event.kind === "stop" || event.kind === "wind" ? event.kind : "wind";
       const link = event.url && event.url.indexOf("https://") === 0
         ? '<a href="' + esc(event.url) + '">Source</a>'
         : "";
+      const kindText = event.kind === "stop" && event.classes.length
+        ? found + " of 4"
+        : KIND[kindName] + ". " + found + " of 4";
       return '<li class="' + kindName + '"><div class="card"><div class="when">' + esc(event.when) +
-        '</div><p class="kind">' + esc(KIND[kindName]) + "</p><h2>" + esc(event.title) +
+        '</div><p class="kind">' + esc(kindText) + "</p><h2>" + esc(event.title) +
         '</h2><ul class="chips">' + chips + '</ul><p class="text">' + esc(event.text) +
         "</p>" + link + "</div></li>";
     }

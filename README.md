@@ -23,7 +23,7 @@ The pages below are the definition, the evidence, and the controls. They do not 
 | [Controls](docs/controls.md) | The hardening order for systems that are already running. |
 | [Agentic SOC](docs/agentic-soc.md) | The published investigator meters, and what a spent allowance does to new investigations. |
 | [Public evidence](docs/public-evidence.md) | Which 2026 reports are cases, which are not attacks, and which numbers are not used. |
-| [Trade winds](docs/trade-winds.md) | Each public report, dated and aligned to the four classes. |
+| [Trade winds](docs/trade-winds.md) | Each public report, dated, with how many of the four that article contains. |
 | [Timeline](timeline/README.md) | Those events in date order. |
 | [References](docs/references.md) | Outlet, date, and URL for each source. |
 | [Technique stub](docs/proposed-technique.md) | A draft mapping for ATT&CK or ATLAS. Not an assigned ID. |

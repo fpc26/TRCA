@@ -1,6 +1,6 @@
 # Four classes
 
-Same allowance. Different class.
+Same allowance. Different class. An article is scored by which of these four it contains. The count runs from 0 of 4 to 4 of 4. One is the usual count. All four in one article is not the pattern. Agentic Service Degradation is the highest impact of the four. A report that does not contain it is still filed under the class it does contain.
 
 Each class below is four things: what it is, where that pattern already shows up in agentic systems, what to do about it on systems that are running now, and which published framework ID covers only a slice. The actions are not a product purchase. They do not wait for a named incident.
 
