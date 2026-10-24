@@ -237,3 +237,59 @@ Wind. 0 of 4. None of the four classes.
 Rob Wright, Need for Speed: AI-Driven Attacks Change Security Strategies, 5 October 2026. Attackers are using AI to exploit faster. A Black Hat USA 2026 poll Wright cites put “AI-driven attacks vs. AI-powered defenses in the SOC” first, at 50%. He cites an Omdia report from summer 2026 on the speed of automated attacks. Omdia is cited, not read here.
 
 [Source](https://www.darkreading.com/cyber-risk/ai-attacks-security-strategies)
+
+### 13 Oct 2026 — A hijacked admin session linked thirteen outside projects to a dormant ModernTV billing account, Gemini paused near $100,000, and the reported total is high six figures
+
+Case. 1 of 4. Stolen key.
+
+Google Cloud Community. A hijacked admin session linked thirteen outside projects to a dormant ModernTV billing account, Gemini paused near $100,000, and the reported total is high six figures.
+
+[Source](https://discuss.google.dev/t/we-got-six-figure-bill-because-projects-from-foreign-organizations-were-linked-to-our-dormant-billing-what-to-check/403984)
+
+### 13 Oct 2026 — An export inlined a Gemini key into a client bundle, and the poster reports about $4,010 over 94 days
+
+Case. 1 of 4. Stolen key.
+
+Google AI Developers Forum. An export inlined a Gemini key into a client bundle, and the poster reports about $4,010 over 94 days.
+
+[Source](https://discuss.ai.google.dev/t/ai-studio-build-apps-export-silently-inlines-os-level-gemini-api-key-into-the-client-bundle-loadenv-with-empty-prefix-usd-4-010-in-unauthorized-charges/188776)
+
+### 19 Oct 2026 — OpenCode users reported charges up to about $1,700 after provider API keys were exposed
+
+Case. 1 of 4. Stolen key.
+
+BleepingComputer. OpenCode users reported charges up to about $1,700 after provider API keys were exposed.
+
+[Source](https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks)
+
+### 20 Oct 2026 — Attacker-owned projects were billed to the victim, with Gemini charges of tens to hundreds of thousands of dollars within 24 to 48 hours
+
+Case. 1 of 4. Stolen key.
+
+Wiz. Attacker-owned projects were billed to the victim, with Gemini charges of tens to hundreds of thousands of dollars within 24 to 48 hours.
+
+[Source](https://www.wiz.io/blog/from-phishing-to-llmjacking)
+
+### 21 October 2026 — Keys may have been read
+
+Wind. 0 of 4. None of the four classes.
+
+Found: 0 of 4. Railway, 21 October 2026, Security Disclosure: Wednesday October 21st. An unauthorized party may have read customer environment variables that can hold API keys. Inference providers were asked to revoke keys. The page does not show a model call or a bill.
+
+[Source](https://blog.railway.com/p/security-disclosure-wednesday-october-21st)
+
+### 21 October 2026 — Listed models, no invoice
+
+Wind. 0 of 4. None of the four classes.
+
+Found: 0 of 4. Wiz, 21 October 2026, LiteLLM Compromised, Steals Credentials. LiteLLM’s own note the same day, and SecurityWeek, 23 October 2026, are the same incident. Stolen cloud credentials were used to list Amazon Bedrock models. The page calls that consistent with LLMjacking. It does not show those models being invoked, and it does not show a bill.
+
+[Source](https://www.wiz.io/blog/litellm-compromised-steals-credentials)
+
+### 21 October 2026 — The honeypot caught the prompt
+
+Wind. 2 of 4. Stolen key, Runaway agent.
+
+Found: 2 of 4. Broadcom, 21 October 2026, Autonomous LLMjacking: ‘Skynet’ Agent Hijacks Exposed AI Models to Run Attacks. Help Net Security, 23 October 2026, and The Decoder, 22 October 2026, are the same capture. The prompt tells a hijacked model to scan, exploit, and mine for up to 100,000 steps.
+
+[Source](https://www.broadcom.com/support/security-center/protection-bulletin/autonomous-llmjacking-skynet-agent-hijacks-exposed-ai-models-to-run-attacks)

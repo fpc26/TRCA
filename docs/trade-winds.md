@@ -186,3 +186,31 @@ The actor reached an AWS account from credentials in a public bucket, then invok
 METR, 31 August 2026, [Update on Security at METR](https://metr.org/blog/2026-08-31-security-update/). The Hacker News, 1 September 2026, and The Register, 1 September 2026, are the same disclosure.
 
 In March 2026 a publicly exposed agent was prompted for its model-provider key. The key was then used for about three weeks. METR says the credits would have been worth about $600,000, and that the model developer had granted them free. No sensitive dataset was taken. Free credits, not a collected invoice.
+
+## 21 October 2026 — the honeypot caught the prompt
+
+**Classes:** Stolen key, Runaway agent.
+**Found:** 2 of 4.
+
+Broadcom, 21 October 2026, [Autonomous LLMjacking: ‘Skynet’ Agent Hijacks Exposed AI Models to Run Attacks](https://www.broadcom.com/support/security-center/protection-bulletin/autonomous-llmjacking-skynet-agent-hijacks-exposed-ai-models-to-run-attacks). Help Net Security, 23 October 2026, and The Decoder, 22 October 2026, are the same capture.
+
+The prompt tells a hijacked model to scan, exploit, and mine for up to 100,000 steps. The honeypot recorded that prompt in summer 2026 and did not run the tools. No named victim. No invoice. Not Insider seat. Not Agentic Service Degradation.
+
+## 21 October 2026 — listed models, no invoice
+
+**Classes:** none.
+**Found:** 0 of 4.
+
+Wiz, 21 October 2026, [LiteLLM Compromised, Steals Credentials](https://www.wiz.io/blog/litellm-compromised-steals-credentials). LiteLLM’s own note the same day, and SecurityWeek, 23 October 2026, are the same incident.
+
+Stolen cloud credentials were used to list Amazon Bedrock models. The page calls that consistent with LLMjacking. It does not show those models being invoked, and it does not show a bill.
+
+## 21 October 2026 — keys may have been read
+
+**Classes:** none.
+**Found:** 0 of 4.
+
+Railway, 21 October 2026, [Security Disclosure: Wednesday October 21st](https://blog.railway.com/p/security-disclosure-wednesday-october-21st).
+
+An unauthorized party may have read customer environment variables that can hold API keys. Inference providers were asked to revoke keys. The page does not show a model call or a bill.
+
