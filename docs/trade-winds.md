@@ -6,7 +6,7 @@ Each entry records which of the four that article contains. The count is 0 of 4 
 
 Naming a class here is not a claim that the event is a finished incident. Nothing on this page shows an agentic SOC allowance spent on purpose.
 
-An agentic SOC sits on an allowance, and one or more of those four classes can spend it. That is a direction, not a published case. Talks that send defenders here: BSides Philly, December 2026, and FS-ISAC, March 2027.
+An agentic SOC sits on an allowance, and one or more of those four classes can spend it. That is a direction, not a published case.
 
 ## Token Torching — January and July 2026
 

@@ -3,7 +3,7 @@
 **Status:** a proposed class. Not an official OWASP entry, MITRE technique, or vendor advisory.  
 **Not:** exploit documentation.
 
-This repository is the home for the talks at BSides Philly, December 2026, and FS-ISAC, March 2027. Any cyber defender can use it to learn the four classes and harden the systems, services, and workflows that spend AI, before a class is used in a live incident against their organization.
+This repository is the public record of Token Resource Consumption Attacks. Any cyber defender can use it to learn the four classes and harden the systems, services, and workflows that spend AI, before a class is used in a live incident against their organization.
 
 TRCA names a pattern that already exists in pieces and is not yet treated as one class:
 
