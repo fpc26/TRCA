@@ -73,4 +73,8 @@ Token Torching, the Kaspersky Denial-of-Wallet note, and the “target is the ag
 - Google AI Developers Forum, 30 Sep 2026, agent runs burned a shared project tokens-per-minute cap while request counters still looked fine. https://discuss.ai.google.dev/t/the-real-cause-behind-ai-studio-build-quota-exceeded-the-agent-burns-your-projects-tpm-and-google-stays-silent/186027
 - Redress Compliance, 7 Aug 2026, Now Assist dev and sub-production draw the production pool. Advisory benchmark, not a named outage. https://redresscompliance.com/servicenow-now-assist-consumption-overage-2026
 
+## Filed 3 Nov 2026
+
+- Google Threat Intelligence Group and Mandiant, 2 Nov 2026, The Rise of LLMJacking. More than $100,000 in a day, and some organizations reached $1 million before access was revoked. Stolen key. No named organization. https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models
+
 

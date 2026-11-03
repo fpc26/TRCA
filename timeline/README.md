@@ -293,3 +293,11 @@ Wind. 2 of 4. Stolen key, Runaway agent.
 Found: 2 of 4. Broadcom, 21 October 2026, Autonomous LLMjacking: ‘Skynet’ Agent Hijacks Exposed AI Models to Run Attacks. Help Net Security, 23 October 2026, and The Decoder, 22 October 2026, are the same capture. The prompt tells a hijacked model to scan, exploit, and mine for up to 100,000 steps.
 
 [Source](https://www.broadcom.com/support/security-center/protection-bulletin/autonomous-llmjacking-skynet-agent-hijacks-exposed-ai-models-to-run-attacks)
+
+### 2 Nov 2026 — Stolen keys ran up more than $100,000 in a day, and some organizations reached $1 million before access was revoked
+
+Case. 1 of 4. Stolen key.
+
+Google Threat Intelligence Group and Mandiant. Stolen keys ran up more than $100,000 in a day, and some organizations reached $1 million before access was revoked.
+
+[Source](https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models)

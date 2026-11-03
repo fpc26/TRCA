@@ -1,6 +1,6 @@
 # Public evidence (what is proven vs what is still a gap)
 
-Retrieved through 24 October 2026. First-person bills are cited as *reported*, not as audited shutdowns.
+Retrieved through 3 November 2026. First-person bills are cited as *reported*, not as audited shutdowns.
 
 ## Proven: Stolen key
 
@@ -38,6 +38,7 @@ Dollar amounts below are printed only with the source on the same line.
 - **About $4,010 / 94 days** — Google AI Developers Forum, 13 Oct 2026. An AI Studio export inlined `GEMINI_API_KEY` into a client bundle for an internal tool that had no AI feature. The poster reports about $4,010 in unauthorized charges, against a normal $69–$183 a month. No company is named. One class: Stolen key. https://discuss.ai.google.dev/t/ai-studio-build-apps-export-silently-inlines-os-level-gemini-api-key-into-the-client-bundle-loadenv-with-empty-prefix-usd-4-010-in-unauthorized-charges/188776
 - **Tens to hundreds of thousands / 24 to 48 hours** — Wiz, 20 Oct 2026. Search-ad phishing, then attacker-owned projects linked to the victim billing account. Gemini calls ran in those projects. Wiz reports charges in that range and does not name an organization or show one invoice. One class: Stolen key. Not the same page as the ModernTV post. https://www.wiz.io/blog/from-phishing-to-llmjacking
 - **Up to about $1,700** — BleepingComputer, 19 Oct 2026, OpenCode. Provider API keys for 1.4% of Console users were exposed. Users reported unauthorized charges from several hundred dollars to about $1,700. OpenCode did not print those amounts itself and said reimbursement was possible. One class: Stolen key. https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks
+- **More than $100,000 in a day, and $1 million before revocation** — Google Threat Intelligence Group and Mandiant, 2 Nov 2026, [The Rise of LLMJacking](https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models). Mandiant responded to several 2026 incidents in financial services, retail, technology, and transportation, in North America, South America, and Asia Pacific. The page says fraudulent charges exceeded $100,000 in a single day, and cumulative charges at some organizations reached $1 million before access was revoked. One actor made more than 500,000 model calls in under eight hours through stolen keys on Jet Night, and that service passed nearly $1 million in token costs to the victim. UNC6993 passed $100,000 after creating more keys in the victim’s projects. No organization is named. No invoice is shown. The page does not say the bill was collected. One class: Stolen key. Not the 29 September GTIG market note, and not the 20 October Wiz billing-account report. Help Net Security, Dark Reading, CSO Online, Infosecurity Magazine, SiliconANGLE, and TechRadar, 2–3 November 2026, are the same report.
 
 ## Proven: stolen inference as attacker infrastructure
 
@@ -142,4 +143,5 @@ One line per event that belongs on the chronology and is not already a section i
 2026-10-13 | case | Stolen key | Google AI Developers Forum. An export inlined a Gemini key into a client bundle, and the poster reports about $4,010 over 94 days. | https://discuss.ai.google.dev/t/ai-studio-build-apps-export-silently-inlines-os-level-gemini-api-key-into-the-client-bundle-loadenv-with-empty-prefix-usd-4-010-in-unauthorized-charges/188776
 2026-10-19 | case | Stolen key | BleepingComputer. OpenCode users reported charges up to about $1,700 after provider API keys were exposed. | https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks
 2026-10-20 | case | Stolen key | Wiz. Attacker-owned projects were billed to the victim, with Gemini charges of tens to hundreds of thousands of dollars within 24 to 48 hours. | https://www.wiz.io/blog/from-phishing-to-llmjacking
+2026-11-02 | case | Stolen key | Google Threat Intelligence Group and Mandiant. Stolen keys ran up more than $100,000 in a day, and some organizations reached $1 million before access was revoked. | https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models
 ```
